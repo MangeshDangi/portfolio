@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="icon" type="favicon.ico" href="./logo.jpg">
+</head>
+
+<body>
+    <nav>
+        <div class="logo"></div>
+        <ul id="myLinks">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About me</a></li>
+            <li><a href="#">Education</a></li>
+            <li><a href="#">Skills</a></li>
+        </ul>
+        <a href="javascript:void(0);" class="icon" onclick="toggle()">
+            <div class="hamburg" onclick="myFunction(this)">&#9776;</div>
+        </a>
+
+    </nav>
+
+    <main id="home">
+        <div>
+            <div class="text">
+                <p>Hello I'm</p>
+                <h1>Mangesh Dangi</h1>
+                <div class="role">
+                    <p>Frontend Developer</p>
+                    <p>React Js</p>
+                </div>
+            </div>
+
+            <div class="btns">
+                <div class="btn1">Click Me</div>
+                <div class="btn2">Let's Talk</div>
+            </div>
+        </div>
+        </div>
+    </main>
+
+    <div id="about">
+        <div class="head">
+            <p>Get To Know</p>
+            <p>About Me</p>
+            <div class="div"></div>
+        </div>
+        <div class="boxes">
+
+            <div class="box experience">
+                <i class="fa-solid fa-briefcase"></i>
+                <p>experience</p>
+                <p>fresher</p>
+            </div>
+            <div class="box education">
+                <i class="fa-solid fa-graduation-cap"></i>
+                <p>Education</p>
+                <p>BSc IT</p>
+            </div>
+            <div class="box project">
+                <i class="fa-regular fa-folder-open"></i>
+                <p>Project</p>
+                <p>9+</p>
+            </div>
+
+        </div>
+
+        <div class="intro">
+            <p>I am Mangesh Dangi, a dedicated student currently pursuing a Bachelor of Science in Information
+                Technology (BSc IT). I'm excited to share my journey with you, as I possess a keen interest and
+                proficiency in web development, and I'm fueled by an insatiable passion for continuously expanding my
+                knowledge horizons.</p>
+            <p>Within the world of information technology, I am striving to make my mark. My expertise in web
+                development sets me apart, enabling me to transform innovative ideas into dynamic and user-friendly
+                websites. With a strong foundation in coding and design, I take pride in my ability to create digital
+                experiences that captivate and engage.</p>
+            </div>
+    </div>
+
+
+    <div class="education">
+        div
+    </div>
+
+    <script>
+        function toggle() {
+            let x = document.getElementById("myLinks");
+            if (x.style.display === "flex") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "flex";
+            }
+        }
+    </script>
+</body>
+
+</html>
