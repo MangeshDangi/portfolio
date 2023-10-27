@@ -244,6 +244,7 @@ main {
         display: none;
         justify-content:center;
         height:200px;
+        gap: 30px;
         background-color: rgb(21, 195, 226);
         padding: 15px 80px;
     }
