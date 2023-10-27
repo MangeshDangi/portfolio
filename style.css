@@ -117,7 +117,7 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 10px;
+    gap: 5vw;
     margin-top: 30px;
     font-family: 'Cookie', cursive;
 }
@@ -150,6 +150,7 @@ main {
 #about{
     width: 100vw;
     height: 100vh;
+    overflow: hidden;
     background-color: rgb(119, 230, 224);
 }
 .head{
@@ -190,7 +191,7 @@ main {
     justify-content: center;
     align-items: center;
     text-align: center;
-    gap: 30px;
+    gap: 10vw;
     padding-top: 30px;
 }
 
@@ -240,6 +241,8 @@ main {
         top: 50px;
         right: 0;
         display: none;
+        justify-content:center;
+        height:200px;
         background-color: rgb(21, 195, 226);
         padding: 15px 80px;
     }
@@ -257,8 +260,9 @@ main {
     .box {
         width: 100px;
         height: 100px;
+       margin-left:20px;
     }
     .boxes{
-        gap: 15px;
+        gap: 30px;
     }
 }
